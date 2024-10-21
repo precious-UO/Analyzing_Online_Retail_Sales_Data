@@ -267,7 +267,15 @@ VALUES
 SELECT *
 FROM order_items;
 
+-- Display the total number of customers, products, and orders in the database
+SELECT COUNT(*) AS total_customers
+FROM customers;
 
+SELECT COUNT(*) AS total_products
+FROM products;
+
+SELECT COUNT(*) AS orders
+FROM orders;
 
 
 
