@@ -1,7 +1,7 @@
-<h1><u>Analyzing Online Retail Sales Data</u></h1>
+<h1><u>Analyzing Online Retail Sales</u></h1>
 
 
-<h3> In this project, I analyzed a dataset of online retail sales. This project covers several phases of data analysis. </h3>
+<h3>The goal of this project is to analyze and understand customer purchasing behavior, identify popular product categories, and uncover sales trends in an online retail store. It covers several phases of data analysis.</h3>
 
 1. <b>The data preparation stage.</b>
 
