@@ -5,7 +5,7 @@
 
 1. <b>The data preparation stage.</b>
 
-    - This is the first stage of my data analysis project. At this stage, I created a database, with four tables and inserted the sample data.
+    - This is the first stage of my data analysis project. At this stage, I downloaded my <a href="https://www.kaggle.com/datasets/vijayuv/onlineretail">dataset</a> from kaggle and imported it into Mysql for cleaning and analysis.
 
 2. <b>The data cleaning and manipulation stage.</b>
 
