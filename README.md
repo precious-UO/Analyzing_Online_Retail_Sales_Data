@@ -10,3 +10,7 @@
 2. <b>The data cleaning and manipulation stage.</b>
 
     - This is the second stage of my data analysis project. At this stage, I removed duplicates, identified and corrected inaccuracies, inconsistencies, and errors in my dataset to improve its quality and reliability.
+
+
+    'secure_file_priv', 'C:\\ProgramData\\MySQL\\MySQL Server 8.0\\Uploads\\'
+
