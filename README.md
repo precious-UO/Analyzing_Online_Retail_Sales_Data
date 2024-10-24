@@ -13,7 +13,7 @@
 
 3. <b> Data Transformation and Feature Engineering </b>
 
-    - At this stage, I transformed the raw data into a more usable format for analysis and created new features that can provide insights into customer behavior.
+    - At this stage, I transformed the raw data into a more usable format for analysis and created new columns that can provide insights into customer behavior.
 
 
    
