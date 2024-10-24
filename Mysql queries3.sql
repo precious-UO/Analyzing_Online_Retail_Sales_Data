@@ -87,4 +87,42 @@ UPDATE onlineretail
 SET Quantity = ABS(Quantity)
 WHERE Quantity < 0;
 
+-- Feature engineering
 
+-- Add new columns and values
+ALTER TABLE onlineretail 
+ADD COLUMN TotalSpent DECIMAL(10,2);
+
+UPDATE onlineretail AS ORT
+JOIN customerspending AS CS
+ON ORT.CustomerID = CS.CustomerID
+SET ORT.TotalSpent = CS.TotalSpent;
+
+ALTER TABLE onlineretail
+ADD COLUMN CustomerSegment VARCHAR(300);
+
+UPDATE onlineretail
+SET CustomerSegment = CASE
+		WHEN TotalSpent > 4500 THEN 'High-Spender'
+		WHEN TotalSpent >= 1000 AND TotalSpent <= 4499 THEN 'Mid-Spender'
+        ELSE 'Low-Spender'
+        END;
+
+ALTER TABLE onlineretail
+ADD COLUMN PurchaseMonth VARCHAR(3);
+
+UPDATE onlineretail
+SET PurchaseMonth = CASE MONTH(InvoiceDate)
+		WHEN 1 THEN 'Jan'
+        WHEN  2 THEN 'Feb'
+        WHEN 3 THEN 'Mar'
+        WHEN 4 THEN 'Apr'
+        WHEN 5 THEN 'May'
+        WHEN 6 THEN 'Jun'
+        WHEN 7 THEN 'Jul'
+        WHEN 8 THEN 'Aug'
+        WHEN 9 THEN 'Sep'
+        WHEN 10 THEN 'Oct'
+        WHEN 11 THEN 'Nov'
+        WHEN 12 THEN 'Dec'
+        END;
