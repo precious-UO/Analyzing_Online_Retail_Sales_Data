@@ -11,6 +11,10 @@
 
     - This is the second stage of my data analysis project. At this stage, I removed duplicates, identified and corrected inaccuracies, Null and empty cells, inconsistencies, and errors in my dataset to improve its quality and reliability.
 
+3. <b> Data Transformation and Feature Engineering </b>
+
+    - At this stage, I transformed the raw data into a more usable format for analysis and created new features that can provide insights into customer behavior.
+
 
    
 
