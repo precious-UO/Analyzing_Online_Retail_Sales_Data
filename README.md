@@ -15,6 +15,10 @@
 
     - At this stage, I transformed the raw data into a more usable format for analysis and created new columns that can provide insights into customer behavior.
 
+4. <b> Data Analysis and Visualization.</b>
+
+    - This is the fourth stage of my project and at this stage, I Analyzed customer behavior: Identifying trends, patterns, and key metrics.
+    And Visualized the data: Creating charts and graphs to understand the data more intuitively.
 
    
 
